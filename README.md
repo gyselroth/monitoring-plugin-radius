@@ -5,6 +5,7 @@ For usage with nagios compatible monitoring systems (nagios, icinga, icinga2 etc
 Check if authentication with given credentials on a radius server is working (and if its fast enough)
 
 ### Usage
+```
 usage: check_radius [-h] -s RADIUS_SERVER -u USERNAME -p PASSWORD -S
                     SHARED_SECRET [-n NAS_IDENTIFIER] [-c SECONDS]
                     [-t SECONDS] [-w SECONDS] [-r RETRIES] [-v]
@@ -21,7 +22,7 @@ arguments:
   -w SECONDS         threshold for warning in SECONDS
   -r RETRIES         number of times to retry connection to radius
   -v                 verbose output
-
+```
 
 ### Example
 ```
